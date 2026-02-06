@@ -6,7 +6,7 @@ import joblib
 
 # Loading the prebuilt model
 
-model= joblib.load("fraud_detection_model.pkl", "rb")
+model= joblib.load("fraud_detection_model.pkl")
 
 # Setting up the UI
 
@@ -154,6 +154,7 @@ if option == "Prediction":
 
         else:
             st.success("This is a Legit Transaction")
+
 
 
 
